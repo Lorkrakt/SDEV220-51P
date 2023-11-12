@@ -1,3 +1,9 @@
+#Cole shane
+#case study
+#receive input for a vehicle and assign it to a class
+#Vehicle is super class and passes the "car" attribute onto automobile
+#automobile then receives the rest of the inputs from the user
+
 class Vehicle:
     def __init__(self,car):
         self.car = car
