@@ -31,7 +31,7 @@ def get_books():
     return{"books":output}
 
 @app.route('/books/<id>')
-def get_drink(id):
+def get_book(id):
     book = Book.query.get_or_404(id)
     return {"name":book.name, "author": book.author,"publisher":book.publisher}
 
