@@ -20,7 +20,7 @@ def index():
     return 'Hello!'
 
 @app.route('/books')
-def get_drinks():
+def get_books():
     books = Book.query.all()
     output = []
     for book in books:
